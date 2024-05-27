@@ -63,4 +63,3 @@ Contributions to this script are welcome. You can contribute by:
 ---
 
 For any questions or support, please open an issue in this repository.
-```
