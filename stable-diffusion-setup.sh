@@ -37,6 +37,7 @@ mv ../sd-v1-4.ckpt models/ldm/stable-diffusion-v1/model.ckpt
 
 # Setup Conda Environment
 conda env create -f environment.yaml
-conda activate ldm
 
 echo "Setup complete. You can now use Stable Diffusion."
+echo "Run the following command to start your conda environment: "
+echo "conda activate ldm"
