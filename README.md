@@ -41,6 +41,40 @@ Run the script with root privileges to install and configure everything:
 sudo ./stable-diffusion-setup.sh
 ```
 
+### Step 4: Refresh Your Terminal Session
+
+```bash
+exec bash -l
+```
+
+### Step 5: Activate conda
+
+```bash
+conda activate ldm
+```
+
+### Step 6: Generate an Image
+
+Move into the `stable-diffusion/` directory
+
+```bash
+cd stable-diffusion
+```
+
+Run the image generation script with a prompt
+
+```bash
+python scripts/txt2img.py --prompt "a photograph of an astronaut riding a horse" --plms
+```
+
+### Step 7: Download Image to Local Machine
+
+Open a new terminal window on your local machine. This terminal session should *not* be connected to your VPS.
+
+```bash
+scp root@your-vps-ip:/root/stable-diffusion/outputs/txt2img-samples/grid-0000.png .
+```
+
 ## What the Script Does
 
 The script performs the following actions:
