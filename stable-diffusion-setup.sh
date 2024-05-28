@@ -15,11 +15,14 @@ chmod +x Anaconda3-2022.05-Linux-x86_64.sh
 ./Anaconda3-2022.05-Linux-x86_64.sh -b
 
 # Initialize Anaconda
-~/anaconda3/bin/conda config --set auto_activate_base false
-~/anaconda3/bin/conda init
+#~/anaconda3/bin/conda config --set auto_activate_base false
+#~/anaconda3/bin/conda init
 
-# Reinitialize Terminal
-exec bash -l
+# Initialize Anaconda without reinitializing the shell
+export PATH="$HOME/anaconda3/bin:$PATH"
+source "$HOME/anaconda3/etc/profile.d/conda.sh"
+conda config --set auto_activate_base false
+conda init
 
 # Download Model File
 wget -O sd-v1-4.ckpt https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt
