@@ -14,10 +14,6 @@ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 chmod +x Anaconda3-2022.05-Linux-x86_64.sh
 ./Anaconda3-2022.05-Linux-x86_64.sh -b
 
-# Initialize Anaconda
-#~/anaconda3/bin/conda config --set auto_activate_base false
-#~/anaconda3/bin/conda init
-
 # Initialize Anaconda without reinitializing the shell
 export PATH="$HOME/anaconda3/bin:$PATH"
 source "$HOME/anaconda3/etc/profile.d/conda.sh"
