@@ -18,6 +18,9 @@ chmod +x Anaconda3-2022.05-Linux-x86_64.sh
 ~/anaconda3/bin/conda config --set auto_activate_base false
 ~/anaconda3/bin/conda init
 
+# Reinitialize Terminal
+exec bash -l
+
 # Download Model File
 wget -O sd-v1-4.ckpt https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt
 
