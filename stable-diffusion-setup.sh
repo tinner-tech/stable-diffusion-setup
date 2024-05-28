@@ -36,4 +36,4 @@ mv ../sd-v1-4.ckpt models/ldm/stable-diffusion-v1/model.ckpt
 conda env create -f environment.yaml
 conda activate ldm
 
-echo "Setup complete. You can now use Stable Diffusion on your VPS."
+echo "Setup complete. You can now use Stable Diffusion."
