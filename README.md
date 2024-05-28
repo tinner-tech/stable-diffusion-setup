@@ -18,12 +18,14 @@ To install Stable Diffusion on your VPS, follow these steps:
 First, download the setup script from this repository. You can do this using `wget` or `curl`:
 
 ```bash
-wget https://github.com/tinner-tech/stable-diffusion-setup/blob/main/stable-diffusion-setup.sh
-# OR
-curl -O https://github.com/tinner-tech/stable-diffusion-setup/blob/main/stable-diffusion-setup.sh
+git clone https://github.com/tinner-tech/stable-diffusion-setup.git
 ```
 
 ### Step 2: Make the Script Executable
+
+```bash
+cd stable-diffusion-setup
+```
 
 Change the script's permissions to make it executable:
 
