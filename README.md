@@ -36,7 +36,7 @@ chmod +x stable-diffusion-setup.sh
 Run the script with root privileges to install and configure everything:
 
 ```bash
-sudo ./setup_stable_diffusion.sh
+sudo ./stable-diffusion-setup.sh
 ```
 
 ## What the Script Does
