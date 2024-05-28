@@ -6,8 +6,18 @@ This repository contains a script for automating the setup of Stable Diffusion o
 
 Before running the script, ensure your VPS meets the following criteria:
 - Ubuntu 22.04 is installed.
-- You have root access or can execute commands with `sudo`.
+- You have `root` access or can execute commands with `sudo`.
 - The VPS has an Nvidia GPU (the script is optimized for this configuration).
+
+<img width="492" alt="image" src="https://github.com/tinner-tech/stable-diffusion-setup/assets/170574137/4e0fda22-9b33-4d45-acff-60be03caf20e">
+
+>Example VPS AI Deployment Configuration
+
+- *GPU:* NVIDIA V100
+- *vCPUs:* 6
+- *Memory:* 24 GiB
+- *Storage:* 168 GiB
+- *Operating System:* Ubuntu 22.04 + NVIDIA Drivers + Docker 
 
 ## Installation
 
