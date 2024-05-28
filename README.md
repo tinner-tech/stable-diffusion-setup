@@ -1,6 +1,6 @@
 # Stable Diffusion Setup Script on VPS AI Ubuntu 22.04
 
-This post contains instructions for running a script that automates the setup of Stable Diffusion on a Virtual Private Server (VPS) running Ubuntu 22.04 with NVIDIA Drivers. The script installs all necessary dependencies, configures the environment, and sets up Stable Diffusion so you can start generating images right away.
+This repository contains instructions for running a script that automates the setup of Stable Diffusion on a Virtual Private Server (VPS) running Ubuntu 22.04 with NVIDIA Drivers. The script installs all necessary dependencies, configures the environment, and sets up Stable Diffusion so you can start generating images right away.
 
 ## Prerequisites
 
