@@ -1,4 +1,4 @@
-# Stable Diffusion Setup Script on Ubuntu 22.04
+# Stable Diffusion Setup Script on VPS AI Ubuntu 22.04
 
 This repository contains a script for automating the setup of Stable Diffusion on a Virtual Private Server (VPS) running Ubuntu 22.04. The script installs all necessary dependencies, configures the environment, and sets up Stable Diffusion so you can start generating images right away.
 
@@ -23,9 +23,16 @@ Before running the script, ensure your VPS meets the following criteria:
 
 To install Stable Diffusion on your VPS, follow these steps:
 
+### Step 0: SSH Into Your VPS
+
+If you have not already, connect to your VPS via SSH.
+```bash
+ssh root@your.vps.ip
+```
+
 ### Step 1: Download the Script
 
-First, download the setup script from this repository. You can do this using `wget` or `curl`:
+First, clone the setup script from this repository.
 
 ```bash
 git clone https://github.com/tinner-tech/stable-diffusion-setup.git
@@ -82,7 +89,7 @@ python scripts/txt2img.py --prompt "a photograph of an astronaut riding a horse"
 Open a new terminal window on your local machine. This terminal session should *not* be connected to your VPS.
 
 ```bash
-scp root@your-vps-ip:/root/stable-diffusion-setup/stable-diffusion/outputs/txt2img-samples/grid-0000.png .
+scp root@your.vps.ip:/root/stable-diffusion-setup/stable-diffusion/outputs/txt2img-samples/grid-0000.png .
 ```
 
 ## What the Script Does
