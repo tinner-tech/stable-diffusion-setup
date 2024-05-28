@@ -28,7 +28,7 @@ curl -O https://github.com/tinner-tech/stable-diffusion-setup/blob/main/stable-d
 Change the script's permissions to make it executable:
 
 ```bash
-chmod +x setup_stable_diffusion.sh
+chmod +x stable-diffusion-setup.sh
 ```
 
 ### Step 3: Run the Script
