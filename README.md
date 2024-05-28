@@ -72,7 +72,7 @@ python scripts/txt2img.py --prompt "a photograph of an astronaut riding a horse"
 Open a new terminal window on your local machine. This terminal session should *not* be connected to your VPS.
 
 ```bash
-scp root@your-vps-ip:/root/stable-diffusion/outputs/txt2img-samples/grid-0000.png .
+scp root@your-vps-ip:/root/stable-diffusion-setup/stable-diffusion/outputs/txt2img-samples/grid-0000.png .
 ```
 
 ## What the Script Does
